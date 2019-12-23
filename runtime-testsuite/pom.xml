@@ -79,6 +79,7 @@
 				<version>2.22.0</version>
 				<configuration>
 					<!-- SUREFIRE-951: file.encoding cannot be set via systemPropertyVariables -->
+                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
 					<argLine>-Dfile.encoding=UTF-8</argLine>
                 </configuration>
 			</plugin>
