@@ -12,6 +12,7 @@ This page lists the available and upcoming ANTLR runtimes. Please note that you 
 * [Swift](swift-target.md)
 * [PHP](php-target.md)
 * [Dart](dart-target.md)
+* [Rust](rust-target.md) (Unstable)
 
 ## Target feature parity
 
