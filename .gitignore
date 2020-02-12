@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nuget packages
 *.nupkg
 
@@ -126,3 +127,9 @@ runtime/Cpp/runtime/cmake_install.cmake
 runtime/Cpp/runtime/libantlr4-runtime.4.10.1.dylib
 runtime/Cpp/runtime/libantlr4-runtime.a
 runtime/Cpp/runtime/libantlr4-runtime.dylib
+
+.idea
+.vscode
+/target
+**/*.rs.bk
+Cargo.lock
