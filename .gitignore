@@ -131,5 +131,7 @@ runtime/Cpp/runtime/libantlr4-runtime.dylib
 .idea
 .vscode
 /target
+/tests/gen/*.tokens
+/tests/gen/*.interp
 **/*.rs.bk
 Cargo.lock
