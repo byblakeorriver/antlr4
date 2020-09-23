@@ -628,6 +628,11 @@ public abstract class Target {
 		}
 	}
 
+	// Override if target need to preprocess actions, for example support escape sequences
+	public String processActionText(String text) {
+		return text;
+	}
+
 	/**
 	 * @since 4.3
 	 */
